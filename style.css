@@ -1,0 +1,530 @@
+h1 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #345B83;
+}
+
+h2 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #345B83;
+}
+
+h3 {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #345B83;
+	font-size:15px;
+}
+
+p {
+	font-family: 'Playfair Display', serif;
+	font-size: 10px;
+	color: #345B83;
+}
+/*this makes the header look like it does*/
+header {
+	background-color:#3D5A80;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+header img.logo {
+	width: 10%;
+}
+
+header ul.main {
+	list-style: none;
+	display: flex;
+	justify-content: space-between;
+	width: 80%;
+}
+
+header ul.main li {
+	font-family: 'Julius Sans One', sans-serif;
+}
+
+header ul.main li a {
+	color:#F5F5D9;
+	text-decoration: none;
+}
+
+header ul.social {
+	width: 10%;
+	list-style: none;
+	text-align: right;
+	height:  150px;
+	display: flex;
+	flex-direction:  column;
+	justify-content: space-between;
+}
+
+
+
+header ul.social li img {
+	height: 20px;
+}
+
+/*this gives the body its color and size*/
+body {
+	margin:  0;
+	padding:  0;
+	box-sizing:  border-box;
+	background-color:#E0FBFC;
+}
+
+/*this is the about us section of the homepage*/
+.about-specials {
+	display: flex;
+	justify-content: space-between;
+	padding: 0 5%;
+}
+
+.about_us {
+	padding-top: 70px;
+	text-align: center;
+	width: 40%;
+}
+
+.about_us p{
+	max-width: 300px;
+	margin: 0 auto;
+	padding-top: 20px;
+}
+
+.truck {
+	height: 250px;
+	width: 250px;
+}
+
+/*specials_menue until the spice class has to do with the specals section*/
+.specials_menu {
+	padding-top: 70px;
+	width: 40%;
+}
+
+.specials {
+	text-align: center;
+}
+
+.spice_drink {
+	height: 300px;
+	padding-left: 155px;
+}
+.spice {
+	font-size:10px;
+	text-align: center;
+	width: 50%;
+	padding-top:5px;
+	padding-left: 125px;
+	margin: 1px;
+
+}
+
+/*locations_title until location_map has to do with the location section*/
+.locations_title {
+	text-align:center ;
+	padding-top: 100px;
+}
+
+.week_locations {
+	display: flex;
+	text-align: center;
+	padding-right:115px;
+}
+.week_locations p{
+
+}
+
+.location_monday {
+	padding-top: 15px;
+	padding-left: 340px;
+	width:80px;
+}
+
+.location_tuesday {
+	padding-top: 15px;
+	padding-left: 40px;
+	width:75px;
+}
+
+.location_wednesday {
+	padding-top: 15px;
+	padding-left: 45px;
+	width:110px;
+}
+
+.location_thursday {
+	padding-top: 15px;
+	padding-left: 50px;
+	width:100px;
+}
+
+.location_friday {
+	padding-top: 15px;
+	padding-left: 40px;
+	width:60px;
+}
+
+.location_saturday {
+	padding-top: 15px;
+	padding-left: 40px;
+	width:100px;
+}
+
+.location_map {
+	padding-top: 55px;
+	padding-left:25%;
+	padding-bottom: 100px;
+}
+
+/*footer until footer_tiktok has to do with the whole footer*/
+footer{
+	background-color:#3D5A80;
+	padding: 20px;
+}
+
+.footer {
+	display: flex;
+}
+
+.footer_hours {
+	width:750px;
+	text-align: center;
+	padding-right: 10%;
+}
+
+.footer_hours_title {
+	color: #F5F5D9;
+	font-size:25px;
+
+}
+
+.footer_hours_content {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #F5F5D9;
+	font-size:17px;
+	padding-top: 15px;
+	width: 25%;
+	padding-left: 37%;
+}
+
+.footer_contacts {
+	width:300px;
+	text-align: center;
+}
+
+.footer_contacts_title {
+	color: #F5F5D9;
+	font-size:25px;
+}
+
+.footer_contacts_content {
+	font-family: 'Julius Sans One', sans-serif;
+	color: #F5F5D9;
+	font-size:17px;
+	padding-top: 20px;
+	list-style-type:none;
+	margin: 0;
+	line-height: 0px;
+}
+
+.footer_social {
+	display: flex;
+	list-style-type:none;
+}
+
+.footer_facebook {
+	padding-left: 140px;
+}
+
+.footer_instagram {
+	padding-left: 200px;
+}
+
+.footer_tiktok {
+	padding-left: 200px;
+}
+/*the menu_title is the code for the title page*/
+.menu_title {
+	text-align: center;
+	padding-top: 50px;
+	font-size: 50px;
+}
+/*menu_coffee until milk_content_price is the menu page content*/
+.coffee_title {
+	text-align: center;
+	padding-top: 5%;
+}
+
+.menu_coffee {
+	display: flex;
+	flex-wrap: wrap;
+	text-align: center;
+	justify-content: space-between;
+	padding-top: 25px;
+}
+
+.menu_item {
+	width: 50%;
+}
+
+.order  {
+	width: 100px;
+	margin: 0 auto;
+	font-size: 15px;
+	font-family: 'Playfair Display', serif;
+}
+
+.order_color {
+	color:#F45B69;
+	text-decoration:none;
+
+}
+
+.iced {
+	font-family: 'Playfair Display', serif;
+	color:#345B83;
+}
+
+.iced_content {
+	font-size:15px;
+}
+
+.iced_content_price {
+	font-size: 11px;
+	line-height: 0;
+}
+
+.vietnamese {
+	color:#345B83;
+}
+
+.vietnamese_contnent {
+	font-size:15px;
+}
+
+.vietnamese_content_price {
+	font-size: 11px;
+	line-height: 0;
+}
+
+
+
+.nitro {
+	color:#345B83;
+
+}
+
+.nitro_content {
+	font-size:15px;
+}
+
+.nitro_content_price {
+	font-size: 11px;
+	line-height: 0;
+}
+
+.chai {
+	color:#345B83;
+}
+
+.chai_content {
+	font-size:15px;
+}
+
+.chai_content_price {
+	font-size: 11px;
+	line-height: 0;
+}
+
+.banana_bread {
+	color:#345B83;
+	width: 200px;
+	padding-left:255px;
+}
+
+.banana_bread_content {
+	font-size:15px;
+}
+
+.banana_bread_content_price {
+	font-size: 11px;
+	line-height: 0;
+}
+.muffin {
+	color:#345B83;
+	width: 200px;
+	padding-left: 255px;
+}
+
+.muffin_content {
+	font-size:15px;
+}
+
+.muffin_content_price {
+	font-size: 11px;
+	line-height: 0;
+}
+
+.bagle {
+	color:#345B83;
+	width: 200px;
+	padding-left: 255px;
+}
+
+.bagel_content {
+	font-size:15px;
+}
+
+.bagel_content_price {
+	font-size: 11px;
+	line-height: 0;
+}
+
+.bagel_add_on {
+	font-size:15px;
+}
+
+.bagel_add_on_price {
+	font-size: 11px;
+	line-height: 0;
+}
+
+.croissant {
+	color:#345B83;
+	width: 200px;
+	padding-left:255px ;
+}
+
+.croissant_content {
+	font-size:15px;
+}
+
+.croissant_content_price {
+	font-size: 11px;
+	line-height: 0;
+}
+
+.menu_add_on {
+	text-align: center;
+}
+
+.size {
+	font-size: 20px;
+	padding-top: 25px;
+}
+
+.size_content {
+	font-size:11px;
+	padding-top: ;	
+}
+
+.flavor {
+	font-size: 20px;
+	padding-top: 25px;
+}
+
+.flavor_content {
+	font-size:11px;
+	padding-top: ;		
+}
+
+.flavor_content_price {
+	font-size:11px;
+}
+
+.milk {
+	font-size: 20px;
+	padding-top: 25px;
+}
+
+.milk_content {
+	font-size:11px;
+	padding-top: ;
+}
+.milk_content_price {
+	font-size:11px;
+}
+
+/*forms_title until submit_input is all the code for the now hiring page*/
+.forms_title{
+	text-align: center;
+	padding-top: 75px;
+	padding-bottom: 50px;
+	font-size: 50px;
+}
+
+.forms{
+	text-align: center;
+	font-family: 'Playfair Display', serif;
+	color:#345B83;
+}
+
+.forms_first_name {
+	padding-bottom: 25px;
+	font-size: 25px;
+}
+
+.first_name_input {
+	font-family: 'Playfair Display', serif;
+	color:#345B83;
+	padding: 10px;
+}
+
+.forms_last_name {
+	padding-bottom:;
+	font-size: 25px;
+}
+
+.last_name_input {
+	font-family: 'Playfair Display', serif;
+	color:#345B83;
+	padding: 10px;
+}
+
+.forms_phone {
+	padding-bottom:px;
+	font-size: 25px;
+}
+
+.phone_input {
+	font-family: 'Playfair Display', serif;
+	color:#345B83;
+	padding: 10px;
+}
+
+.forms_email {
+	padding-bottom:;
+	text-align: center;
+	font-size: 25px;
+}
+
+.email_input {
+	font-family: 'Playfair Display', serif;
+	color:#345B83;
+	padding: 10px;
+}
+
+.forms_dob {
+	padding-bottom:;
+	text-align: center;
+	font-size: 25px;
+}
+
+.dob_input {
+	font-family: 'Playfair Display', serif;
+	color:#345B83;
+	padding: 10px;
+}
+
+.forms_submit {
+	padding-bottom: 25px;
+}
+
+.submit_input {
+	font-family: 'Playfair Display', serif;
+	color:#F5F5D9;
+	padding: 5px;
+	text-align: center;
+	font-size: px;
+	background-color:#3D5A80;
+}
